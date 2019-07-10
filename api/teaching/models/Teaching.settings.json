@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "teaching",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "maxLength": 40,
+      "required": true,
+      "minLength": 5,
+      "type": "string"
+    },
+    "text": {
+      "maxLength": 340,
+      "type": "text"
+    },
+    "posted": {
+      "type": "date"
+    },
+    "author": {
+      "model": "people"
+    }
+  }
+}

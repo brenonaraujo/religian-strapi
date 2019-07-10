@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "people",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "firstName": {
+      "maxLength": 15,
+      "required": true,
+      "minLength": 4,
+      "type": "string"
+    },
+    "lastName": {
+      "maxLength": 15,
+      "required": true,
+      "minLength": 4,
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "createdDate": {
+      "type": "date"
+    },
+    "about": {
+      "type": "text"
+    },
+    "profilePicture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "rank": {
+      "enum": [
+        "God",
+        "Christ",
+        "Apostle",
+        "Follower",
+        ""
+      ],
+      "type": "enumeration"
+    }
+  }
+}

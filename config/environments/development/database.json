@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "database": "religian",
+        "host": "ds349587.mlab.com",
+        "srv": false,
+        "port": "49587",
+        "username": "admin",
+        "password": "Mkcntu9b!1993"
+      },
+      "options": {
+        "authenticationDatabase": "religian"
+      }
+    }
+  }
+}

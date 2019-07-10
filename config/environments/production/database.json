@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "mLab",
+  "connections": {
+    "mLab": {
+      "settings": {
+        "host": "ds349587.mlab.com",
+        "port": 49587,
+        "srv": "false",
+        "database": "religian",
+        "username": "admin",
+        "password": "Mkcntu9b!1993",
+        "ssl": "false",
+        "client": "mongo"
+      },
+      "options": {
+        "ssl": "false",
+        "authenticationDatabase": "religian"
+      }
+    }
+  }
+}
