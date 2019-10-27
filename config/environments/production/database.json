@@ -4,15 +4,15 @@
     "default": {
       "connector": "strapi-hook-mongoose",
       "settings": {
-        "client": "mongo",
-        "host": "${process.env.DATABASE_HOST}",
-        "port": "${process.env.DATABASE_PORT}",
-        "database": "${process.env.DATABASE_NAME}",
-        "username": "${process.env.DATABASE_USERNAME}",
-        "password": "${process.env.DATABASE_PASSWORD}"
+        "database": "religian",
+        "host": "ds349587.mlab.com",
+        "srv": false,
+        "port": "49587",
+        "username": "admin",
+        "password": "Mkcntu9b!1993"
       },
       "options": {
-        "authenticationDatabase": "${process.env.DATABASE_NAME}"
+        "authenticationDatabase": "religian"
       }
     }
   }

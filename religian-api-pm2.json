@@ -1,0 +1,10 @@
+{
+    "apps": [
+        {
+            "name": "religian.online",
+            "script": "npm",
+            "args" : "start"
+        }
+    ]
+}
+
