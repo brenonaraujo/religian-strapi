@@ -1,57 +1,15 @@
 {
-  "_args": [
-    [
-      "strapi-plugin-content-manager@3.0.0-beta.10",
-      "/home/ubuntu/religian-strapi"
-    ]
-  ],
-  "_from": "strapi-plugin-content-manager@3.0.0-beta.10",
-  "_hasShrinkwrap": false,
-  "_id": "strapi-plugin-content-manager@3.0.0-beta.10",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/strapi-plugin-content-manager",
-  "_nodeVersion": "10.15.3",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/strapi-plugin-content-manager_3.0.0-beta.10_1562655976492_0.3828587499550671"
+  "name": "strapi-plugin-content-manager",
+  "version": "3.0.0-beta.10",
+  "description": "A powerful UI to easily manage your data.",
+  "strapi": {
+    "name": "Content Manager",
+    "icon": "plug",
+    "description": "content-manager.plugin.description",
+    "required": true
   },
-  "_npmUser": {
-    "email": "bodin.alex@gmail.com",
-    "name": "alexandrebodin"
-  },
-  "_npmVersion": "lerna/3.15.0/node@v10.15.3+x64 (darwin)",
-  "_phantomChildren": {
-    "@babel/runtime": "7.6.3",
-    "hoist-non-react-statics": "3.3.0",
-    "invariant": "2.2.4",
-    "loose-envify": "1.4.0",
-    "prop-types": "15.7.2",
-    "react-is": "16.10.2"
-  },
-  "_requested": {
-    "name": "strapi-plugin-content-manager",
-    "raw": "strapi-plugin-content-manager@3.0.0-beta.10",
-    "rawSpec": "3.0.0-beta.10",
-    "scope": null,
-    "spec": "3.0.0-beta.10",
-    "type": "version"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.0.0-beta.10.tgz",
-  "_shasum": "af86ebfc17b9e23ecaf40905d56d9302a920020c",
-  "_shrinkwrap": null,
-  "_spec": "strapi-plugin-content-manager@3.0.0-beta.10",
-  "_where": "/home/ubuntu/religian-strapi",
-  "author": {
-    "email": "hi@strapi.io",
-    "name": "Strapi team",
-    "url": "http://strapi.io"
-  },
-  "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+  "scripts": {
+    "test": "echo \"no tests yet\""
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -78,62 +36,26 @@
     "strapi-utils": "3.0.0-beta.10",
     "styled-components": "^4.2.0"
   },
-  "description": "A powerful UI to easily manage your data.",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "fileCount": 213,
-    "integrity": "sha512-9xYtHaIhAbcUhusvRr8nTDcuOZHJOaw5L5oTeHGFvV4ys2PMps6fLHFnaD7bKvH89qzF0ql+ybBulm1cqrZMUw==",
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJDzpCRA9TVsSAnZWagAAcFkP+gN7Z5+P0HXxIlS2kNo0\nviB/jxigYjxJc82wDN7YqQC26fc+XI8VV+jP0RaEMYhLSGeK+dkQMPEzqh9F\nWDyzMVDr/UNHl08ev8WrkWkGglKcYaXmucsNCC608fV7D0Uf807K8kuFx0Om\nq09vv82Ya+0M9oerv6jbRTe+33dd4hZ4m7TBx1Jk2eQ9GRK+ts9pneyyTcLF\nyGVEJVr5aVlZriNTy+tXSGZCfyY5Gsomc2oiZ9Bl+1sapJxP9GQmYhLONhSB\naCTahxoit8xdCiDnIbQLfRyq1dpYoyEdTQBZLswOcdqOYC9zpfwzGne5lDJf\n6QiW4ig4GHhuErs6lHYgkKc2g1kunuCxMYjDDvDvXJ1zsLu2OXEXksjgGxfg\n/eM16Crpa4xXb2zgIA2u1DW/vsTuoGAcCFSSXauMQc3odcZNJW1toKZE3uJ2\nU6rr78+jSE9Hd9LJAyEVgQoI21AziOTHaNmFgzUyHJnMKwI07862nEJdNQzx\nsZCqR5EKfRMvkS8+v5F+afK8da+1+tIxYGwv/QrgkeIEQMQ1Yv6glcdTL2Lp\nhqxy52uRxHLVyiI/g57Z7A1kGcGbnlhPLYjAVOtKRjAdT45sX/RJB7ofxQyZ\nVGGpuV3FYQ0Ov8l5zIKkSS5p/pAotQbIPyE31w5OlL5/rgdZ7qMeHL68LhKi\nEcCA\r\n=3FGQ\r\n-----END PGP SIGNATURE-----\r\n",
-    "shasum": "af86ebfc17b9e23ecaf40905d56d9302a920020c",
-    "tarball": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.0.0-beta.10.tgz",
-    "unpackedSize": 615565
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
   },
   "engines": {
     "node": "^10.0.0",
     "npm": ">= 6.0.0"
   },
-  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab",
-  "homepage": "https://github.com/strapi/strapi#readme",
   "license": "MIT",
-  "maintainers": [
-    {
-      "name": "alexandrebodin",
-      "email": "bodin.alex@gmail.com"
-    },
-    {
-      "name": "aurelsicoko",
-      "email": "aurelsicoko@gmail.com"
-    },
-    {
-      "name": "lauriejim",
-      "email": "j.laurie6993@gmail.com"
-    },
-    {
-      "name": "pierreburgy",
-      "email": "pierre.burgy@gmail.com"
-    },
-    {
-      "name": "soupette",
-      "email": "cyril.lpz@gmail.com"
-    }
-  ],
-  "name": "strapi-plugin-content-manager",
-  "optionalDependencies": {},
-  "readme": "# Strapi Content Manager\n\n## Description\n\nThis plugin allows you to manage your data through a UI.\n\n## Contributing\n\nNB: Please refers to the contributing section of the [monorepo](https://github.com/strapi/strapi)\n\n1. Create a new Strapi application: `strapi new myApp`.\n2. Go to your new Strapi app `cd myApp`.\n3. Create a symlink to the monorepo plugin's folder `ln -s /path/to/strapi/monorepo/packages/strapi-plugin-content-manager ./plugins/content-manager`\n3. Copy the layout SASS variables folder into your project from `admin/public/app/styles/variables` to `plugins/content-manager/public/app/styles/variables`\n4. Start your app `strapi start` (Don't forget to return to the root of your app's directory).\n\n\nln -s -f ./admin/public/app/styles/variables/variables.scss ./plugins/content-manager/public/app/styles/variables/variables.scss\n",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
-  },
-  "scripts": {
-    "test": "echo \"no tests yet\""
-  },
-  "strapi": {
-    "description": "content-manager.plugin.description",
-    "icon": "plug",
-    "name": "Content Manager",
-    "required": true
-  },
-  "version": "3.0.0-beta.10"
+  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab"
 }

@@ -1,57 +1,15 @@
 {
-  "_args": [
-    [
-      "strapi-plugin-users-permissions@3.0.0-beta.10",
-      "/home/ubuntu/religian-strapi"
-    ]
-  ],
-  "_from": "strapi-plugin-users-permissions@3.0.0-beta.10",
-  "_hasShrinkwrap": false,
-  "_id": "strapi-plugin-users-permissions@3.0.0-beta.10",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/strapi-plugin-users-permissions",
-  "_nodeVersion": "10.15.3",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/strapi-plugin-users-permissions_3.0.0-beta.10_1562655977860_0.5290982370046138"
+  "name": "strapi-plugin-users-permissions",
+  "version": "3.0.0-beta.10",
+  "description": "Protect your API with a full-authentication process based on JWT",
+  "strapi": {
+    "name": "Roles & Permissions",
+    "icon": "users",
+    "description": "users-permissions.plugin.description",
+    "required": true
   },
-  "_npmUser": {
-    "email": "bodin.alex@gmail.com",
-    "name": "alexandrebodin"
-  },
-  "_npmVersion": "lerna/3.15.0/node@v10.15.3+x64 (darwin)",
-  "_phantomChildren": {
-    "@babel/runtime": "7.6.3",
-    "hoist-non-react-statics": "3.3.0",
-    "invariant": "2.2.4",
-    "loose-envify": "1.4.0",
-    "prop-types": "15.7.2",
-    "react-is": "16.10.2"
-  },
-  "_requested": {
-    "name": "strapi-plugin-users-permissions",
-    "raw": "strapi-plugin-users-permissions@3.0.0-beta.10",
-    "rawSpec": "3.0.0-beta.10",
-    "scope": null,
-    "spec": "3.0.0-beta.10",
-    "type": "version"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.0.0-beta.10.tgz",
-  "_shasum": "5d87970fc6ff8829d08b5a090b86edea4504cba5",
-  "_shrinkwrap": null,
-  "_spec": "strapi-plugin-users-permissions@3.0.0-beta.10",
-  "_where": "/home/ubuntu/religian-strapi",
-  "author": {
-    "email": "hi@strapi.io",
-    "name": "Strapi team",
-    "url": "http://strapi.io"
-  },
-  "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+  "scripts": {
+    "test": "echo \"no tests yet\""
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -77,64 +35,29 @@
     "strapi-utils": "3.0.0-beta.10",
     "uuid": "^3.1.0"
   },
-  "description": "Protect your API with a full-authentication process based on JWT",
   "devDependencies": {
     "koa": "^2.1.0"
   },
-  "directories": {},
-  "dist": {
-    "fileCount": 120,
-    "integrity": "sha512-EP2KmLN0Ad5Fpt9BMv5BioucC1kytqrwv6PewS6dccc497HAq5LxV3MwDqvMfiPNNlxlwYGNqNjgdH1URp9vQw==",
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJDzqCRA9TVsSAnZWagAA75gQAI+epkM+hPHd4wKIUYV4\nZg8STSE9f47/gzzEJE+c+aEbmh+VdLMKTv2RmOdagQ9vigkUYGLW/IW6vZo1\nbHeO5UwnehmPvv+zFJomYt+wEUqAqzr/F6ZnSR7qiu717DxyZAdsXBxwhT6O\nWJukX4DkZPVqQwpPO1PzCVm+ILzpi+lkoIiOKRWTFHm25/6sToLnY3snWL10\nDAmcrklUXB6dKqpxMqFJfpcIoTR4wMXF54mFooaeCYb4P/D90tHBuL40MEEK\nS47b/bMseIs5lqY7epccAm5aBS7U0KUVoLtrxL1GqDi2UEmT/kLfsBhdS+kT\nKq7zooxYPGCjU91c+H3Pe+H7fHidKTe1MXPKUp+9Y/ZOvHIwh8gHUIlb/tFV\nYg0B0cxj2BW9TthWfJkK4k+16jfnVFDY1o85czaP2RgeV7wVQIJifK/UP2LK\nvrrAzHwYAXwRZeCrV89lu74tJ2ZCUvMjdl9busmTfxjxVrYiyZEz1O1goM4C\noeps+r1T+0Gwn4DV988Tb82/EtySNpnCdlQOeS+xzCsW1lY/D884/4FyexgT\nvasGlvIkdGeKvlbMk/sj5OxoELhj3buaapw7hmhahGQBHQc1cT1XDeh+sgnn\nJPfxa6mjYrBscRTxxiYovfza7omoiw4iGCUoQ+WOkE2cF/jmYZa5kEqqojau\nibqr\r\n=k4ek\r\n-----END PGP SIGNATURE-----\r\n",
-    "shasum": "5d87970fc6ff8829d08b5a090b86edea4504cba5",
-    "tarball": "https://registry.npmjs.org/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.0.0-beta.10.tgz",
-    "unpackedSize": 462849
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
   },
   "engines": {
     "node": "^10.0.0",
     "npm": ">= 6.0.0"
   },
-  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab",
-  "homepage": "https://github.com/strapi/strapi#readme",
   "license": "MIT",
-  "maintainers": [
-    {
-      "name": "alexandrebodin",
-      "email": "bodin.alex@gmail.com"
-    },
-    {
-      "name": "aurelsicoko",
-      "email": "aurelsicoko@gmail.com"
-    },
-    {
-      "name": "lauriejim",
-      "email": "j.laurie6993@gmail.com"
-    },
-    {
-      "name": "pierreburgy",
-      "email": "pierre.burgy@gmail.com"
-    },
-    {
-      "name": "soupette",
-      "email": "cyril.lpz@gmail.com"
-    }
-  ],
-  "name": "strapi-plugin-users-permissions",
-  "optionalDependencies": {},
-  "readme": "# Strapi plugin",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
-  },
-  "scripts": {
-    "test": "echo \"no tests yet\""
-  },
-  "strapi": {
-    "description": "users-permissions.plugin.description",
-    "icon": "users",
-    "name": "Roles & Permissions",
-    "required": true
-  },
-  "version": "3.0.0-beta.10"
+  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab"
 }

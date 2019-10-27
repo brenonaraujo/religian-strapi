@@ -1,115 +1,45 @@
 {
-  "_args": [
-    [
-      "strapi-plugin-email@3.0.0-beta.10",
-      "/home/ubuntu/religian-strapi"
-    ]
-  ],
-  "_from": "strapi-plugin-email@3.0.0-beta.10",
-  "_hasShrinkwrap": false,
-  "_id": "strapi-plugin-email@3.0.0-beta.10",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/strapi-plugin-email",
-  "_nodeVersion": "10.15.3",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/strapi-plugin-email_3.0.0-beta.10_1562655977674_0.887717380721039"
+  "name": "strapi-plugin-email",
+  "version": "3.0.0-beta.10",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "Email",
+    "icon": "paper-plane",
+    "description": "email.plugin.description",
+    "required": true
   },
-  "_npmUser": {
-    "email": "bodin.alex@gmail.com",
-    "name": "alexandrebodin"
-  },
-  "_npmVersion": "lerna/3.15.0/node@v10.15.3+x64 (darwin)",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "strapi-plugin-email",
-    "raw": "strapi-plugin-email@3.0.0-beta.10",
-    "rawSpec": "3.0.0-beta.10",
-    "scope": null,
-    "spec": "3.0.0-beta.10",
-    "type": "version"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.0.0-beta.10.tgz",
-  "_shasum": "b6ee28fb590a627841f2fd7ffa37a919e9d9e47c",
-  "_shrinkwrap": null,
-  "_spec": "strapi-plugin-email@3.0.0-beta.10",
-  "_where": "/home/ubuntu/religian-strapi",
-  "author": {
-    "email": "hi@strapi.io",
-    "name": "Strapi team",
-    "url": "http://strapi.io"
-  },
-  "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+  "scripts": {
+    "test": "echo \"no tests yet\""
   },
   "dependencies": {
     "strapi-provider-email-sendmail": "3.0.0-beta.10",
     "strapi-utils": "3.0.0-beta.10"
   },
-  "description": "This is the description of the plugin.",
   "devDependencies": {
     "react-copy-to-clipboard": "5.0.1",
     "rimraf": "^2.6.3",
     "strapi-helper-plugin": "3.0.0-beta.10"
   },
-  "directories": {},
-  "dist": {
-    "fileCount": 42,
-    "integrity": "sha512-vsRrgJk9UlPN2NWtHR1/kl5uIhD8oOc88uhukJ2tBeCzvXca25Ih6x0ddkEFdBBqTsa7HjAhaSz1RD86zBURRA==",
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJDzqCRA9TVsSAnZWagAALL8P+wUwAERAxFc0heD04uGc\nOekeiPjwVET2G7cmmjfj1+tw4krc8G9+RNxtU/l87PdeNtf7B3mlUnRUgkpY\nVm84Ra5NtPAe3OEblH+IkvPxv/zUUXRMh80qTBrvqKiS20qbS9NKJCO2ZTCd\nbUb76N1U6UFZlxd0Lr/C48gzUZIzNB3aVO3B3BEA29qG7cgilmQ5AMOBWEE1\nEOWyRpyea7OMVXDGTvbt034CJPjl9NjxOqyfDqVt2yPsH3D17mBe60oj2dU0\nxPSfSnJaTSV5BrmruX8bHQUeatWOPd5apbESwq6SjRLOvElmt0hgy8aO3kPl\nEdR2DSanIKtG4MgRfmdKOjRru+VkI39WvU/Bd5S58MQIo/Izr1owH9bltKzZ\nZpX9OsfVeHm3RQX663Ci+QrF+NL0HGbI8c22vVZY8WntJL7CfaLF7Vw9yUAw\ndh5c48jMT//SqhYMilwM258HYirB1lOJoJmcHU6W+66XhB1/lP2Nq6uet3a2\nDXn9y43A1JCg3DGey5b8LRrjNSARMofB6sYFa+KLrOujXWu/6ttYeS2AGyTU\n+0podBbZHxY9pxhs7BwjOioI72KxkmR7h/XPNAoMKOVNATT21bteh72/HFLP\nOYmDF0fXdpXfxmc5Bv9V0pOUywROof99YFp2dKuy3mq/yQ5R1QSbkk+8Y7mX\n3SwT\r\n=iphK\r\n-----END PGP SIGNATURE-----\r\n",
-    "shasum": "b6ee28fb590a627841f2fd7ffa37a919e9d9e47c",
-    "tarball": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.0.0-beta.10.tgz",
-    "unpackedSize": 35979
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
   },
   "engines": {
     "node": "^10.0.0",
     "npm": ">= 6.0.0"
   },
-  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab",
-  "homepage": "https://github.com/strapi/strapi#readme",
   "license": "MIT",
-  "maintainers": [
-    {
-      "name": "alexandrebodin",
-      "email": "bodin.alex@gmail.com"
-    },
-    {
-      "name": "aurelsicoko",
-      "email": "aurelsicoko@gmail.com"
-    },
-    {
-      "name": "lauriejim",
-      "email": "j.laurie6993@gmail.com"
-    },
-    {
-      "name": "pierreburgy",
-      "email": "pierre.burgy@gmail.com"
-    },
-    {
-      "name": "soupette",
-      "email": "cyril.lpz@gmail.com"
-    }
-  ],
-  "name": "strapi-plugin-email",
-  "optionalDependencies": {},
-  "readme": "# Strapi plugin",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
-  },
-  "scripts": {
-    "test": "echo \"no tests yet\""
-  },
-  "strapi": {
-    "description": "email.plugin.description",
-    "icon": "paper-plane",
-    "name": "Email",
-    "required": true
-  },
-  "version": "3.0.0-beta.10"
+  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab"
 }

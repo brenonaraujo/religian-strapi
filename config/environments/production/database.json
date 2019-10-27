@@ -2,18 +2,17 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "strapi-hook-bookshelf",
+      "connector": "strapi-hook-mongoose",
       "settings": {
-        "client": "postgres",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
-        "username": "${process.env.DATABASE_USERNAME || 'postgres'}",
-        "password": "${process.env.DATABASE_PASSWORD || 'mkcntu9b'}"
+        "database": "religian",
+        "host": "ds349587.mlab.com",
+        "srv": false,
+        "port": "49587",
+        "username": "admin",
+        "password": "Mkcntu9b!1993"
       },
       "options": {
-        "authenticationDatabase": "${process.env.DATABASE_NAME}",
-        "ssl": false
+        "authenticationDatabase": "religian"
       }
     }
   }
