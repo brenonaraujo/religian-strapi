@@ -1,14 +1,57 @@
 {
-  "name": "strapi-plugin-content-type-builder",
-  "version": "3.0.0-beta.10",
-  "description": "Strapi plugin to create content type (API).",
-  "strapi": {
-    "name": "Content Type Builder",
-    "icon": "paint-brush",
-    "description": "content-type-builder.plugin.description"
+  "_args": [
+    [
+      "strapi-plugin-content-type-builder@3.0.0-beta.10",
+      "/home/ubuntu/religian-strapi"
+    ]
+  ],
+  "_from": "strapi-plugin-content-type-builder@3.0.0-beta.10",
+  "_hasShrinkwrap": false,
+  "_id": "strapi-plugin-content-type-builder@3.0.0-beta.10",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/strapi-plugin-content-type-builder",
+  "_nodeVersion": "10.15.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-plugin-content-type-builder_3.0.0-beta.10_1562655979473_0.2068857787414753"
   },
-  "scripts": {
-    "test": "echo \"no tests yet\""
+  "_npmUser": {
+    "email": "bodin.alex@gmail.com",
+    "name": "alexandrebodin"
+  },
+  "_npmVersion": "lerna/3.15.0/node@v10.15.3+x64 (darwin)",
+  "_phantomChildren": {
+    "@babel/runtime": "7.6.3",
+    "hoist-non-react-statics": "3.3.0",
+    "invariant": "2.2.4",
+    "loose-envify": "1.4.0",
+    "prop-types": "15.7.2",
+    "react-is": "16.10.2"
+  },
+  "_requested": {
+    "name": "strapi-plugin-content-type-builder",
+    "raw": "strapi-plugin-content-type-builder@3.0.0-beta.10",
+    "rawSpec": "3.0.0-beta.10",
+    "scope": null,
+    "spec": "3.0.0-beta.10",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-beta.10.tgz",
+  "_shasum": "8b5ee8f86c9b849970b4e6f222fdcb8193343dc4",
+  "_shrinkwrap": null,
+  "_spec": "strapi-plugin-content-type-builder@3.0.0-beta.10",
+  "_where": "/home/ubuntu/religian-strapi",
+  "author": {
+    "email": "hi@strapi.io",
+    "name": "Strapi team",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -32,26 +75,61 @@
     "strapi-generate-api": "3.0.0-beta.10",
     "strapi-helper-plugin": "3.0.0-beta.10"
   },
-  "author": {
-    "name": "Strapi team",
-    "email": "hi@strapi.io",
-    "url": "http://strapi.io"
-  },
-  "maintainers": [
-    {
-      "name": "Strapi team",
-      "email": "hi@strapi.io",
-      "url": "http://strapi.io"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+  "description": "Strapi plugin to create content type (API).",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 187,
+    "integrity": "sha512-8QafuNTlyiE/WePbDUm0qf6/wLT8ocNiSYwLSe2Bs+FH60Ox149Y8vdttZwAvgGLMNWE9TtP35hZ99ZKCt9WVw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJDzsCRA9TVsSAnZWagAArzgQAIIpgG/0W3WD3x9HGZLG\nsFBvD1+OEUh2OVvhiUfXQ+XwQsPH3rp3Rvz9ESyuDraTUf1C8Ptt/zB7WWuQ\n9OLIsvJohLuuAFJWizkypTvjCL3ae12ZjBvE/aKbIZUCJFa2piUkrNIvtqNZ\nHSxhLZSC6ja3DUH+OyAx2YZbEyhVnD9J+EKxjfkbsZboQUX8M7yspC6j5cE6\n8Bs67fzIEd8FkjK7t2qrOzZbx8Q5PLCi94TerNNZpDszGW+z7iLjSut4ynVa\nlEjhvg6X4qgry6mb5DigI0FZu/PxtoW63FoaxSViTYdFjneZryWjn33zbic5\nuDfusJK4ff0VLTOQ8AoAFSRbABRQUEVFrDqUW3Lv37I2YrXpWLRCyJYJhJeM\na2EJOyWl61pAMbFK6MZnDI4+Yw+sWsMER2CkpgXtf/EXGbAFk471hF2NTgmC\nTRa7x3LBQXZYPY17K5zskxW4CiGZC7RYW2wkHMBYKCVRvI18d5B8mWtQ6409\n9+GDEKxCtHk773jIFvHvgnBV2o7ZEM9rw7LVmsVKTnjR02zyLCO0DStkiedv\nq13VK4l2MTAEgrFHOHPWB4AqWKpQsIbQsjN20joR0EeA8wvLydUBy6QiS1zV\n7rAGWBMlyLnV34Emac5iOLDhXfB9j3nqfMmiTY20goWyYCqhsLRUggup9rir\nqLDq\r\n=/WrJ\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "8b5ee8f86c9b849970b4e6f222fdcb8193343dc4",
+    "tarball": "https://registry.npmjs.org/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-beta.10.tgz",
+    "unpackedSize": 649297
   },
   "engines": {
     "node": "^10.0.0",
     "npm": ">= 6.0.0"
   },
+  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab",
+  "homepage": "https://github.com/strapi/strapi#readme",
   "license": "MIT",
-  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab"
+  "maintainers": [
+    {
+      "name": "alexandrebodin",
+      "email": "bodin.alex@gmail.com"
+    },
+    {
+      "name": "aurelsicoko",
+      "email": "aurelsicoko@gmail.com"
+    },
+    {
+      "name": "lauriejim",
+      "email": "j.laurie6993@gmail.com"
+    },
+    {
+      "name": "pierreburgy",
+      "email": "pierre.burgy@gmail.com"
+    },
+    {
+      "name": "soupette",
+      "email": "cyril.lpz@gmail.com"
+    }
+  ],
+  "name": "strapi-plugin-content-type-builder",
+  "optionalDependencies": {},
+  "readme": "# Strapi plugin",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "description": "content-type-builder.plugin.description",
+    "icon": "paint-brush",
+    "name": "Content Type Builder"
+  },
+  "version": "3.0.0-beta.10"
 }

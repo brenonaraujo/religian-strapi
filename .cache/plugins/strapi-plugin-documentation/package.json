@@ -1,15 +1,86 @@
 {
-  "name": "strapi-plugin-documentation",
-  "version": "3.0.0-beta.10",
-  "description": "This is the description of the plugin.",
-  "strapi": {
-    "name": "Documentation",
-    "icon": "book",
-    "description": "Create an OpenAPI Document and visualize your API with SWAGGER UI."
+  "_args": [
+    [
+      "strapi-plugin-documentation@3.0.0-beta.10",
+      "/home/ubuntu/religian-strapi"
+    ]
+  ],
+  "_from": "strapi-plugin-documentation@3.0.0-beta.10",
+  "_hasShrinkwrap": false,
+  "_id": "strapi-plugin-documentation@3.0.0-beta.10",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/strapi-plugin-documentation",
+  "_nodeVersion": "10.15.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-plugin-documentation_3.0.0-beta.10_1562655971255_0.8806913607436346"
   },
-  "scripts": {
-    "test": "echo \"no tests yet\""
+  "_npmUser": {
+    "email": "bodin.alex@gmail.com",
+    "name": "alexandrebodin"
   },
+  "_npmVersion": "lerna/3.15.0/node@v10.15.3+x64 (darwin)",
+  "_phantomChildren": {
+    "@babel/runtime": "7.6.3",
+    "classnames": "2.2.6",
+    "create-react-context": "0.3.0",
+    "csstype": "2.6.7",
+    "dom-helpers": "3.4.0",
+    "emotion": "9.2.12",
+    "graceful-fs": "4.2.2",
+    "hoist-non-react-statics": "3.3.0",
+    "invariant": "2.2.4",
+    "jsonfile": "4.0.0",
+    "lodash.isfunction": "3.0.9",
+    "lodash.isobject": "3.0.2",
+    "lodash.tonumber": "4.0.3",
+    "loose-envify": "1.4.0",
+    "memoize-one": "5.1.1",
+    "popper.js": "1.15.0",
+    "prop-types": "15.7.2",
+    "raf": "3.4.1",
+    "react-input-autosize": "2.2.2",
+    "react-is": "16.10.2",
+    "react-lifecycles-compat": "3.0.4",
+    "typed-styles": "0.0.7",
+    "universalify": "0.1.2",
+    "warning": "4.0.3"
+  },
+  "_requested": {
+    "name": "strapi-plugin-documentation",
+    "raw": "strapi-plugin-documentation@3.0.0-beta.10",
+    "rawSpec": "3.0.0-beta.10",
+    "scope": null,
+    "spec": "3.0.0-beta.10",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-documentation/-/strapi-plugin-documentation-3.0.0-beta.10.tgz",
+  "_shasum": "f64b19b8470ed5d05dd574894864a1b3ce23942a",
+  "_shrinkwrap": null,
+  "_spec": "strapi-plugin-documentation@3.0.0-beta.10",
+  "_where": "/home/ubuntu/religian-strapi",
+  "author": {
+    "email": "hi@strapi.io",
+    "name": "soupette",
+    "url": "http://strapi.io"
+  },
+  "contributors": [
+    {
+      "name": "soupette"
+    },
+    {
+      "name": "Aurelsicoko",
+      "email": "aurelien@strapi.io"
+    },
+    {
+      "name": "lauriejim",
+      "email": "jim@strapi.io"
+    }
+  ],
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "classnames": "^2.2.6",
@@ -36,43 +107,56 @@
     "strapi-helper-plugin": "3.0.0-beta.10",
     "swagger-ui-dist": "3.22.1"
   },
-  "author": {
-    "name": "soupette",
-    "email": "hi@strapi.io",
-    "url": "http://strapi.io"
+  "description": "This is the description of the plugin.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 53,
+    "integrity": "sha512-FShAJ/XPT/VyT9eKLuMI0UO9SoWdtwgS4ZHWWKQ9CTMf2s60XnZgJcbE0FV/sZjfAV/jBgTle+0mWAF+42ELqA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJDzjCRA9TVsSAnZWagAA/vUP/0s3fNJSWwKNCe6PuqLh\n56qDivZRL9xLHXrd72ASEngWNuYDWOoz0FCh9fs18yj5+ya6rwRpq7DxIUdE\n/flWuItSWJ+Ko4ZKKLx66crnCoIn5H7NgyeR6V0ZZcEs9qY3d9GVkttnF9qi\nXQf+9gb7iisiruEEHqLNhwDUfxoXFsMlpaUt235xbMLw5xMVoGAwtA9gnHiA\nLkvVvkQeKd6qwZJ9bSONaghBPyfhLfO8EDTS/7T/zzaY5YORTh8+IAumLGIM\ndzcQd8IidHcmilJCCjEj81TpD7Fc9edXcsTSCMKQFt3LRLdI0ylpGGPb/RvK\nCquaMCWwX5Elf2mXj0Yo8RO9peLIsQ+354gPc2yYC5FUg+bW4vWuVVN7M2TI\nt90rvtrXsUS+ZMv5QF4HSDcRwZppqkO0KINNKqTZFM75yjiHN5XDElOccH2c\nYzQWwzIFLO6fd9Joph0GDA5aPlXokNjoy89XxQKxh9DPIgv1Lp0oC1iDIS8P\nvT3X0pG5U9cylG6cKscf2U4jjQdi4l/Tq19PMN5JLCOOh7yWz5JhUkInVIRP\nHL2aNcKWy2EjZReWvR9YovBOO2fkACN/tLpLzmb7zzh8gpr0/B4WyRFhivk3\nURl0XrRvfoERswFZWd89nrh3VPJ200T6tKZzLIrofthTKI2K1yjUix+nJ1jH\nrk6i\r\n=DN3I\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "f64b19b8470ed5d05dd574894864a1b3ce23942a",
+    "tarball": "https://registry.npmjs.org/strapi-plugin-documentation/-/strapi-plugin-documentation-3.0.0-beta.10.tgz",
+    "unpackedSize": 171873
   },
-  "maintainers": [
-    {
-      "name": "Strapi",
-      "email": "hi@strapi.io",
-      "url": "http://strapi.io"
-    },
-    {
-      "name": "soupette",
-      "email": "cyril@strapi.io"
-    },
-    {
-      "name": "lauriejim",
-      "email": "jim@strapi.io"
-    }
-  ],
-  "contributors": [
-    {
-      "name": "soupette"
-    },
-    {
-      "name": "Aurelsicoko",
-      "email": "aurelien@strapi.io"
-    },
-    {
-      "name": "lauriejim",
-      "email": "jim@strapi.io"
-    }
-  ],
   "engines": {
     "node": ">= 9.0.0",
     "npm": ">= 5.3.0"
   },
+  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab",
   "license": "MIT",
-  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab"
+  "maintainers": [
+    {
+      "name": "alexandrebodin",
+      "email": "bodin.alex@gmail.com"
+    },
+    {
+      "name": "aurelsicoko",
+      "email": "aurelsicoko@gmail.com"
+    },
+    {
+      "name": "lauriejim",
+      "email": "j.laurie6993@gmail.com"
+    },
+    {
+      "name": "pierreburgy",
+      "email": "pierre.burgy@gmail.com"
+    },
+    {
+      "name": "soupette",
+      "email": "cyril.lpz@gmail.com"
+    }
+  ],
+  "name": "strapi-plugin-documentation",
+  "optionalDependencies": {},
+  "readme": "# Plugin documentation\n\nThis plugin automates your API documentation creation. It basically generates a swagger file. It follows the [Open API specification version 3.0.1](https://swagger.io/specification/).\nThe documentation plugin is not release on npm yet, Here's how to install it.\n\n## Usage\n\n- Config\n- Creating a new documentation version\n- Generated files\n  - full_documentation.json structure\n- Overriding the suggested documentation\n- FAQ\n  - How does it generate the others plugins documentation ?\n  - I have created a route into a common API (like product) that query another model. How to automate this?\n- TODO\n\n### Config\n\nThe plugin comes with a `settings.json` file located in `my-app/plugins/documentation/config` folder where you can specify all your environment variables, licences, external documentation and so one...\nYou can add all the entries listed in the [specification](https://swagger.io/specification/).\n\n_NOTE_ if you need to add a custom key you can do it by prefixing your key by `x-{something}`\n\n### Creating a new documentation version\n\nIn order to create a new version you need to change the `info.version` key in the `settings.json` file.\n\nThis will automatically create a new version.\n\n### Generated files\n\nWhen you start your server with this plugin installed it will automatically create the following files in your APIs (we will see how it works for the plugins).\n\n- api\n  - my-api\n    - documentation\n      - documentationVersion // 1.0.0\n        - my-api.json // File containing all the identified path\n        - unclassified.json // File containing the manually added paths\n        - overrides // Folder to override the generated documentation\n- plugins\n  - ...\n  - documentation\n    - documentation\n      - 1.0.0\n        - full_documentation.json\n\n#### full_documentation.json\n\nThe combined documentation is merged into the `full_documentation.json` file and it's located in `./plugins/documentation/{version}/full_documentation.json`\n\nIt has the following structure\n\n```\n{\n  \"openapi\": \"3.0.0\" // do not change this version\n  \"info\": {\n    \"version\": \"1.0.0\" // change this line to create a new version\n    ...\n  }\n  \"x-strapi-config\": {\n    \"path\": \"/documentation\", // Change this line to change to url of the doc\n    \"showGeneratedFiles\": true // Do not change this line at the moment...\n  },\n  \"servers\" {} // Your servers config (it will be automated),\n  \"externalDocs\": {},\n  \"paths\": {} // All your Api routes,\n  \"tags\": [] // Group of route\n  \"components\": {} // Default generated components and custom ones\n}\n```\n\n### Overriding the suggested documentation\n\nCurrently the plugin writes a json file for each API.\n\nIn order to customize the responses or to add informations to a path you need to create a file in the associated `overrides/<file-name>.json` (the name of the file matters so make sure they are similar). Then you just need to identify the path you want to modify.\nYou can modify the default generated tags by adding a new one at the end of the file. Same for the components.\n\n**_NOTE 1_**\n\nOverriding the `full_documentation.json` is a bad idea since it will be regenerated each time you change a model.\n\n**_NOTE 2_**\n\nYou can easily modify the description, summary, parameters of a path however, for a response like the `200` you will need to write the full object. Take a look at the `./plugins/users-permissions/documentation/overrides/1.0.0/users-permissions-User.json` for a complete example.\n\n### FAQ\n\n#### How does it generate the others plugins documentation ?\n\nIn other to reference a plugin's route into the documentation you need to add a `description` key in the `config` object.\n\nFor example this is the plugin email routes.json file\n\n```\n{\n\"routes\": [\n  {\n    \"method\": \"POST\",\n    \"path\": \"/\",\n    \"handler\": \"Email.send\",\n    \"config\": {\n      \"policies\": [],\n      \"description\": \"Send an email\",\n      \"tag\": {\n        \"plugin\": \"email\",\n        \"name\": \"Email\"\n      }\n    }\n  },\n  {\n    \"method\": \"GET\",\n    \"path\": \"/environments\",\n    \"handler\": \"Email.getEnvironments\",\n    \"config\": {\n      \"policies\": []\n    }\n  },\n  {\n    \"method\": \"GET\",\n    \"path\": \"/settings/:environment\",\n    \"handler\": \"Email.getSettings\",\n    \"config\": {\n      \"policies\": []\n    }\n  },\n  {\n    \"method\": \"PUT\",\n    \"path\": \"/settings/:environment\",\n    \"handler\": \"Email.updateSettings\",\n    \"config\": {\n      \"policies\": []\n    }\n  }\n]\n}\n```\n\nIn this file we have only one route that we want to reference in our documentation (`/`). Usually, the tag object is used for the SWAGGER UI, it will group this route under the `Email - Email` dropdown in the documentation. Furthermore, the algorithm will try to find the model to generate the best response possible. If the model is unknown it generates a response like the following `{ foo: \"string\" }` that you can easily override later.\n\nThere's another property to guide the algorithm to create the best response possible, the `actionType` key.\nWhen we can't know by the controller name the type of the returned response (like `find` and `findOne`) you can specify it with this key. There's an example in `./plugins/users-permissions/config/routes.json`.\n\n#### I have created a route in a common API (like product) that query another model. How to automate this ?\n\nYou can use the `tag` key in your route. If you provide a `tag` which is a string like `\"tag\": \"Product\"` the algorithm will know that the end-point retrieves data from the **`Product`** table. Creating a tag object `{ \"tag\": { \"name\": \"User\", \"plugin\": \"User-Permissions } }` will result in generating a response with the **`User`** model from the plugin users-permissions.\n\n---\n\nEach entry of the object is easily customisable take look at the users-permissions ones they are a good example on how to do it.\n",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "description": "Create an OpenAPI Document and visualize your API with SWAGGER UI.",
+    "icon": "book",
+    "name": "Documentation"
+  },
+  "version": "3.0.0-beta.10"
 }

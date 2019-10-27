@@ -1,14 +1,52 @@
 {
-  "name": "strapi-plugin-upload",
-  "version": "3.0.0-beta.10",
-  "description": "This is the description of the plugin.",
-  "strapi": {
-    "name": "Files Upload",
-    "icon": "cloud-upload",
-    "description": "Description of upload plugin."
+  "_args": [
+    [
+      "strapi-plugin-upload@3.0.0-beta.10",
+      "/home/ubuntu/religian-strapi"
+    ]
+  ],
+  "_from": "strapi-plugin-upload@3.0.0-beta.10",
+  "_hasShrinkwrap": false,
+  "_id": "strapi-plugin-upload@3.0.0-beta.10",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/strapi-plugin-upload",
+  "_nodeVersion": "10.15.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-plugin-upload_3.0.0-beta.10_1562655977167_0.15622245253609313"
   },
-  "scripts": {
-    "test": "echo \"no tests yet\""
+  "_npmUser": {
+    "email": "bodin.alex@gmail.com",
+    "name": "alexandrebodin"
+  },
+  "_npmVersion": "lerna/3.15.0/node@v10.15.3+x64 (darwin)",
+  "_phantomChildren": {
+    "@babel/runtime": "7.6.3",
+    "hoist-non-react-statics": "3.3.0",
+    "invariant": "2.2.4",
+    "loose-envify": "1.4.0",
+    "prop-types": "15.7.2",
+    "react-is": "16.10.2"
+  },
+  "_requested": {
+    "name": "strapi-plugin-upload",
+    "raw": "strapi-plugin-upload@3.0.0-beta.10",
+    "rawSpec": "3.0.0-beta.10",
+    "scope": null,
+    "spec": "3.0.0-beta.10",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-upload/-/strapi-plugin-upload-3.0.0-beta.10.tgz",
+  "_shasum": "cebaba392fc0e0b9b277aea24d8cab440e0cc7ae",
+  "_shrinkwrap": null,
+  "_spec": "strapi-plugin-upload@3.0.0-beta.10",
+  "_where": "/home/ubuntu/religian-strapi",
+  "author": {
+    "name": "A Strapi developer"
   },
   "dependencies": {
     "immutable": "^3.8.2",
@@ -29,22 +67,56 @@
     "stream-to-array": "^2.3.0",
     "uuid": "^3.2.1"
   },
-  "author": {
-    "name": "A Strapi developer",
-    "email": "",
-    "url": ""
+  "description": "This is the description of the plugin.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 68,
+    "integrity": "sha512-v/VGaHDyJxyoMVeWbEFHqYbk4g6Gh/T0zG6ie7OMUN2SaXTejwWiix0AGCy8uUwa62yd0CgmYH+jLPCpfVa1eA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJDzpCRA9TVsSAnZWagAAdL8P/A8UOU1aNkilYY8JbB0E\nTQqWyhUXQEL4ofADEIASClfNbaE+RbOLMUe+UphxjIeSKjzQdot23AHVlHhx\nLPCOKUAQCCJQjcXfOjdGEKkTB5HE95qOYOUtLRhoDitzs3IJ+84grJPrVqGc\nPrDcAF1JcmsG8f2EMX2tp8fWdyl5grkxVg8QbZbznfXqni3pcdVguKR7l0sh\niy+I2KoA+nHyTo6XPSiC+TD+LIFzLFoRrIo8e6nuL+QQ7tR95hxdPSJtXEHz\nL2qFUQTCNI5XU0jKQuzqhNMVtIU3xuqhKBw4a5jpbGoTM1+iUenkPdEXQPVW\nH5vGG/5DKi9DGtraePG7tpH9TNYWYpaK4f8UKXzkgp2dNabVWHEK2ol6UoLt\nP5EJo85Z3n8DD7qS6CFG2SFbgD2Lful3jE4PSjfE4ww6gESAf34h+VPXcYaG\nyzc5csQ/+mdUmUZUmrhT0VIXa1G4yrZ/9laphkiWdf7NRpX6KVKvfPhSHynE\nSc5zYJwREt15mj8H3V7ACVPtu2ip7ygMgO5T8V9McojpreLhNWN/0ZtcQIfU\nWkj1UFgOfAYL1vvNyktW+iLhfmDBTN+uRgNU9rAKY0qLiac+1WtM47M2Uiil\nfK+pGYSVZyQFwcKO5cVv2M5b6wMCyBGumGRFOLQAZWBs5TTl98QvJkzI7AUQ\nByis\r\n=uKe1\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "cebaba392fc0e0b9b277aea24d8cab440e0cc7ae",
+    "tarball": "https://registry.npmjs.org/strapi-plugin-upload/-/strapi-plugin-upload-3.0.0-beta.10.tgz",
+    "unpackedSize": 114436
   },
-  "maintainers": [
-    {
-      "name": "A Strapi developer",
-      "email": "",
-      "url": ""
-    }
-  ],
   "engines": {
     "node": "^10.0.0",
     "npm": ">= 6.0.0"
   },
+  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab",
   "license": "MIT",
-  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab"
+  "maintainers": [
+    {
+      "name": "alexandrebodin",
+      "email": "bodin.alex@gmail.com"
+    },
+    {
+      "name": "aurelsicoko",
+      "email": "aurelsicoko@gmail.com"
+    },
+    {
+      "name": "lauriejim",
+      "email": "j.laurie6993@gmail.com"
+    },
+    {
+      "name": "pierreburgy",
+      "email": "pierre.burgy@gmail.com"
+    },
+    {
+      "name": "soupette",
+      "email": "cyril.lpz@gmail.com"
+    }
+  ],
+  "name": "strapi-plugin-upload",
+  "optionalDependencies": {},
+  "readme": "# Strapi plugin",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "description": "Description of upload plugin.",
+    "icon": "cloud-upload",
+    "name": "Files Upload"
+  },
+  "version": "3.0.0-beta.10"
 }
