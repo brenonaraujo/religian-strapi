@@ -1,6 +1,6 @@
 {
   "host": "localhost",
-  "port": 80,
+  "port": 1337,
   "production": true,
   "proxy": {
     "enabled": true,
