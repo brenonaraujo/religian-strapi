@@ -1384,7 +1384,7 @@ await-busboy@1.0.3:
     black-hole-stream "0.0.1"
     busboy "0.3.0"
 
-aws-sdk@^2.457.0:
+aws-sdk@^2.199.0:
   version "2.556.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.556.0.tgz#5c96bacf7942b530b20c94f3307e6650a97fd7be"
   integrity sha512-qILMUNl/a7FYWU67Y24OGsXFhyDHM4qYdplMR2tps/g17pN9bEQ5ijxvGzW2T8VVyAsTanmn+dFyl/CH38pC5Q==
@@ -9825,12 +9825,11 @@ strapi-provider-email-sendmail@3.0.0-beta.10:
     sendmail "^1.2.0"
 
 strapi-provider-upload-aws-s3@^3.0.0-alpha.26.2:
-  version "3.0.0-beta.17.4"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-aws-s3/-/strapi-provider-upload-aws-s3-3.0.0-beta.17.4.tgz#538495639feb0057d63b2d9646e5a89e11ba9b6c"
-  integrity sha512-g4ZF4ONC1J6pteGCPgk3/04cMfUHLgnW5BxonRC/KYMCRwyNJB2txHeFB9qs0JIIPqJCZOJOZKkTujc6Iz+kOA==
+  version "3.0.0-alpha.26.2"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-aws-s3/-/strapi-provider-upload-aws-s3-3.0.0-alpha.26.2.tgz#6970ed6adf440abb8fb825944c597464f09071a6"
+  integrity sha512-3UvrXC9q+AYLMQ1pZ4P6mxH+2J4dwYejS2xoKuebPUrWo6jH0lHyvIqqBsUzK0CotQUJhQ2g49MGY67+gq+3lw==
   dependencies:
-    aws-sdk "^2.457.0"
-    lodash "^4.17.11"
+    aws-sdk "^2.199.0"
 
 strapi-provider-upload-local@3.0.0-beta.10:
   version "3.0.0-beta.10"
